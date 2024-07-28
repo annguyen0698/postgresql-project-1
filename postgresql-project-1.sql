@@ -5,6 +5,7 @@ SELECT DISTINCT replacement_cost FROM film ORDER BY 1
 
 -- Question: What's the lowest replacement cost?
 -- Answer: 9.99
+-- Just a comment
 SELECT MIN (replacement_cost) FROM film 
 SELECT DISTINCT replacement_cost FROM film ORDER BY 1 LIMIT 1
 
